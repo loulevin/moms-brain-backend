@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-export const calenderSchema = new mongoose.Schema(
+export const appointmentSchema = new mongoose.Schema(
   {
     date: Date,
     dayOfWeek: String,
@@ -14,9 +14,9 @@ export const calenderSchema = new mongoose.Schema(
     ],
   },
   {
-    collection: "calender",
+    collection: "appointment",
     timestamps: true,
   }
 );
 
-export const Calender = mongoose.model('Calender', calenderSchema)
+export const Appointment = mongoose.model('Appointment', appointmentSchema)
