@@ -1,18 +1,18 @@
 @url = http://localhost:4510
 
 ### ADD SINGLE APPOINTMENT
-POST {{url}}/appointments
+POST {{url}}/
 Content-Type: application/json
 
 {
     "date": "2021-12-12",
     "dayOfWeek": "Monday",
-    "appointments": [ 
+    "appointments":  
         {
-        "startTime": "10:00",
-        "endTime": "11:00",
+        "startTime": 10,
+        "endTime": 11,
         "title": "Meeting with John Doe",
-        "description": "Discussing the new project",
+        "description": "Discussing the new project"
         }
-    ]
+    
 }
