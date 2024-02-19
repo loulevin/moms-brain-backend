@@ -33,3 +33,16 @@ export const updateSingleAppointment = async (req, res) => {
     handleError(res, e);
   }
 };
+
+export const deleteSingleAppointment = async (req, res) => {
+  try {
+    const singleAppointment = await Appointment.findByIdAndDelete(
+      req.params.id
+    );
+    singleAppointment
+      ? res.status(200).json(singleAppointment)
+      : res.status(404).json({ msg: `Appointment not found ${req.params.id}` });
+  } catch (e) {
+    handleError(res, e);
+  }
+};

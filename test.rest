@@ -16,3 +16,14 @@ Content-Type: application/json
         }
     
 }
+
+### GET SINGLE APPOINTMENT
+GET {{url}}/65d359317ff6141118d1c430
+
+{
+    "appointments": 
+    {
+        "startTime": 14,
+        "endTime": 20,
+    }
+}

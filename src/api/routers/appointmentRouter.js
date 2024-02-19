@@ -3,6 +3,7 @@ import {
   addSingleAppointment,
   getSingleAppointment,
   updateSingleAppointment,
+  deleteSingleAppointment,
 } from "../controllers/appointmentController.js";
 
 export const appointmentRouter = express.Router();
@@ -13,3 +14,4 @@ appointmentRouter
   .get(getSingleAppointment);
 appointmentRouter.route("/:id").get(getSingleAppointment);
 appointmentRouter.route("/:id").patch(updateSingleAppointment);
+appointmentRouter.route("/:id").delete(deleteSingleAppointment);
