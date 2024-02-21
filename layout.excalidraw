@@ -1,0 +1,172 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "nbHFzY0TLBPDkpLwXzkFY",
+      "type": "rectangle",
+      "x": 250,
+      "y": 153,
+      "width": 374,
+      "height": 355,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 174993278,
+      "version": 76,
+      "versionNonce": 664906302,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1708518552287,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "hWstS3eHaVekHqFXbo9-4",
+      "type": "text",
+      "x": 268,
+      "y": 173,
+      "width": 163.35984802246094,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "d_fFDcOAGitj3lyDWO8Bs"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1219431138,
+      "version": 115,
+      "versionNonce": 2093148670,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1708518818282,
+      "link": null,
+      "locked": false,
+      "text": "Kleider Elisabeth\n   Hosen\n   T-Shirt\n   Unterhosen\n\n",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 143,
+      "containerId": null,
+      "originalText": "Kleider Elisabeth\n   Hosen\n   T-Shirt\n   Unterhosen\n\n",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "Ep11MIomgHXZFTeq0I_G5",
+      "type": "rectangle",
+      "x": 272,
+      "y": 202,
+      "width": 17,
+      "height": 16,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [
+        "d_fFDcOAGitj3lyDWO8Bs"
+      ],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1206255586,
+      "version": 62,
+      "versionNonce": 1662057022,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1708518818282,
+      "link": null,
+      "locked": false
+    },
+    {
+      "type": "rectangle",
+      "version": 76,
+      "versionNonce": 766706302,
+      "isDeleted": false,
+      "id": "cjUF1iZH__XukaVKYkeOv",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 271.5,
+      "y": 228,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 17,
+      "height": 16,
+      "seed": 1038247998,
+      "groupIds": [
+        "d_fFDcOAGitj3lyDWO8Bs"
+      ],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [],
+      "updated": 1708518818282,
+      "link": null,
+      "locked": false
+    },
+    {
+      "type": "rectangle",
+      "version": 103,
+      "versionNonce": 527041214,
+      "isDeleted": false,
+      "id": "1wDAhBACQYYLk1ZYaTR9L",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 270.5,
+      "y": 253,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 17,
+      "height": 16,
+      "seed": 1261957310,
+      "groupIds": [
+        "d_fFDcOAGitj3lyDWO8Bs"
+      ],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [],
+      "updated": 1708518818282,
+      "link": null,
+      "locked": false
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
