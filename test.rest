@@ -27,3 +27,8 @@ GET {{url}}/65d359317ff6141118d1c430
         "endTime": 20,
     }
 }
+
+### POST SINGLE TAB
+POST {{url}}/
+Content-Type: application/json
+
