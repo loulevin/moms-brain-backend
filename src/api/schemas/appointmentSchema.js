@@ -2,14 +2,14 @@ import mongoose from "mongoose";
 
 export const appointmentSchema = new mongoose.Schema(
   {
-    date: Date,
-    dayOfWeek: String,
+    date: { type: Date, required: true },
+    dayOfWeek: { type: String, required: true },
     appointments: [
       {
-        startTime: Number,
-        endTime: Number,
-        title: String,
-        description: String,
+        startTime: { type: String, required: true },
+        endTime: { type: String, required: true},
+        title: { type: String, required: true},
+        description: {type: String },
       },
     ],
   },
@@ -19,4 +19,4 @@ export const appointmentSchema = new mongoose.Schema(
   }
 );
 
-export const Appointment = mongoose.model('Appointment', appointmentSchema)
+export const Appointment = mongoose.model("Appointment", appointmentSchema);
