@@ -9,7 +9,7 @@ export const appointmentSchema = new mongoose.Schema(
         startTime: { type: String, required: true },
         endTime: { type: String, required: true},
         title: { type: String, required: true},
-        description: {type: String },
+        description: { type: String },
       },
     ],
   },
