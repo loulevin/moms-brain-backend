@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+
 export const appointmentSchema = new mongoose.Schema(
   {
     date: { type: Date, required: true },

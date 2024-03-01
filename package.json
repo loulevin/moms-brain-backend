@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "server": "nodemon src/api/index.js"
+    "server": "nodemon src/api/server.js"
   },
   "keywords": [],
   "author": "",
