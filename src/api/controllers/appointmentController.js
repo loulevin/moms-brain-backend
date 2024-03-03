@@ -28,6 +28,11 @@ export const updateSingleAppointment = async (req, res) => {
         new: true,
       }
     );
+    if (!singleAppointment) {
+      return res
+        .status(404)
+        .json({ msg: `Appointment not found with id ${req.params.id}` });
+    }
     res.status(200).json(singleAppointment);
   } catch (e) {
     handleError(res, e);
@@ -39,9 +44,12 @@ export const deleteSingleAppointment = async (req, res) => {
     const singleAppointment = await Appointment.findByIdAndDelete(
       req.params.id
     );
-    singleAppointment
-      ? res.status(200).json(singleAppointment)
-      : res.status(404).json({ msg: `Appointment not found ${req.params.id}` });
+    if (!singleAppointment) {
+      return res
+        .status(404)
+        .json({ msg: `Appointment not found ${req.params.id}` });
+    }
+    res.status(200).json(singleAppointment);
   } catch (e) {
     handleError(res, e);
   }
