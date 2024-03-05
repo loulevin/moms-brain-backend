@@ -19,6 +19,15 @@ export const getSingleAppointment = async (req, res) => {
   }
 };
 
+export const getAllAppointment = async (req, res) => {
+  try {
+    const allAppointment = await Appointment.find();
+    res.status(200).json(allAppointment);
+  } catch (e) {
+    handleError(res, e);
+  }
+};
+
 export const updateSingleAppointment = async (req, res) => {
   try {
     const singleAppointment = await Appointment.findByIdAndUpdate(
